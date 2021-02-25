@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script defer src="fontawesome/js/all.js"></script>
+    <title>Frank Yuhas</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+        html,
+        body {
+            height: 100%;
+            font-family: 'Cabin', sans-serif;
+            scroll-behavior: smooth;
+            
+        }
+
+        h3{
+            color:white;
+        }
+
+
+
+        #intro{
+            height: 100%;
+            background: url("images/mountains.jpg")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+
+
+        .faded {
+            opacity: 0.8
+        }
+
+
+        .container {
+            min-height: 100%;
+            min-height: calc(100% - 56px);
+            padding-top: 56px; 
+        }
+
+
+        .btn-outline {
+            color: black;
+            background-color: white;
+            border: 2px solid black;
+            opacity: 0.5;
+            transition: 0.3s;
+
+        }
+
+        .btn-outline:hover {
+            opacity: 1;
+        }
+
+        .lang {
+            height: 60px;
+            transition: 0.3s;
+        }
+
+        .contacticon {
+            font-size: 65px;
+        }
+
+        .contacticon a {
+            color: rgb(33, 37, 41);
+        }
+
+        .course {
+            margin: 0 10px;
+            padding: 20px;
+            background-color: #eeeeee;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .course h5 {
+            margin: 0;
+        }
+
+        .next {
+            font-size: 65px;
+        }
+
+        .next a {
+            color: rgb(33, 37, 41);
+        }
+
+        .card{
+            margin: 0 auto;
+        }
+        #dwn-arrow{
+            max-width: 80px;
+        }
+        #dwn-arrow-rev{
+            max-width: 80px;
+            filter: invert(100%);
+        }
+
+        #landing-row{
+            padding-top: 250px;
+        }
+
+        #courses-row{
+            padding-top: 50px;
+
+        }
+        #about{
+            padding-top: 90px;
+        }
+
+        .lineBreak{
+            border-top: 3px solid #FFFFFF;
+            width: 80%;
+        }
+
+        .projects-container{
+            height: 100%;
+        }
+
+        .nav img {
+            height: 25px;
+            filter: invert(70%);
+        }
+
+        @media screen and (max-width: 800px) {
+            #dwn-arrow{
+                visibility: hidden;
+            }
+            #dwn-arrow-rev{
+                visibility: hidden;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#intro">Frank Yuhas<span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav ml-auto">
+            <li>
+                <a href="https://www.linkedin.com/in/francis-yuhas/" class="nav-link"><img class="img-responsive2" src="images/linkedin.svg" /></a>
+                <li>
+                    <a href="https://github.com/frankyuhas" class="nav-link"><img class="img-responsive2" src="images/github.svg" /></a>
+                <li>
+                    <a href="mailto:frankyuhas@icloud.com" class="nav-link"><img class="img-responsive2" src="images/mail.svg"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mask -->
+
+    <div id="intro" class="view">
+
+        <div class="full-bg-img">
+            <div class="container">
+                <div class="row mx-auto" id="landing-row">
+                    <div class="col-sm">
+                        <h4 class="display-2 font-weight-bold mx-auto text-center text-white">Hey, I'm Frank!</h4>
+                        <hr class="lineBreak">
+                    </div>
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-sm">
+                        <h5 class="display-5 mx-auto text-center text-white">I'm an Information Science & Technology Student at Temple University.</h5>
+                    </div>
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-sm text-center">
+                        <br>
+                        <a class="btn btn-success" href="#about">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Mask -->
+
+
+    
+   <!--  <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Frank!</h4>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
+                University.</h5>
+        </div>
+        
+        <div class="row my-4">
+            <div class="col">
+                <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
+            </div>
+            <div class="col">
+                <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
+            </div>
+            <div class="col">
+                <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
+            </div>
+        </div>
+        <div class="row mt-5 next">
+            <a href="#projects" class="col"><img class="img-responsive" id="dwn-arrow" src="images/sort-down.svg"></a> </div> -->
+
+
+
+<div class="projects-container">
+    
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="about">
+
+        <div class="row mx-auto">
+            <h4 class="display-3 font-weight-bold mx-auto text-center">About me...</h4>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center mb-4">I'm normal I promise</h5>
+        </div>
+
+        <div class="card mb-3" style= "max-width: 800px;">
+          <img src="images/me.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5>
+ -->            <p class="card-text">I grew up in Northeast Pennsylvania and moved to Phildalphia when I started at Temple. I love hiking, camping, making music and tinkering with electronics. My dog Leah is my favorite creature on planet earth without question. </p>
+           
+          </div>
+        </div>
+        
+        <div class="row mt-5 next">
+            <a href="#courses" class="col"><img class="img-responsive" id="dwn-arrow" src="images/sort-down.svg"></a> </div>
+
+
+    </div>
+
+</div>
+
+    <div id="intro" class="view">
+
+        <div class="full-bg-img">
+           <div class="container" id="courses">
+                <div class="row mx-auto" id="courses-row">
+                    <h4 class="display-3 font-weight-bold mx-auto text-center text-white">Courses</h4>
+                </div>
+                <hr class="lineBreak">
+
+                <div class="row mx-auto mb-4">
+                    <h5 class="display-5 mx-auto text-center text-white">Just some of what I've learned</h5>
+                </div>
+                <div class="row w-100 justify-content-center my-3 mx-auto">
+                    <div class="col text-center course">
+                        <h5>Information Systems Analysis and Design</h5>
+                    </div>
+                    <div class="col text-center course">
+                        <h5>Server-Side Web Application Development</h5>
+                    </div>
+                </div>
+                <div class="row w-100 justify-content-center my-3 mx-auto">
+                    <div class="col text-center course">
+                        <h5>Network Architectures</h5>
+                    </div>
+                    <div class="col text-center course">
+                        <h5>Client-Side Scripting</h5>
+                    </div>
+                </div>
+                <div class="row w-100 justify-content-center my-3 mx-auto">
+                    <div class="col text-center course">
+                        <h5>Component-Based Software Design</h5>
+                    </div>
+                    <div class="col text-center course">
+                        <h5>Database Management Systems</h5>
+                    </div>
+                </div>
+                <div class="row w-100 justify-content-center my-3 mx-auto">
+                    <div class="col text-center course">
+                        <h5>UX Design</h5>
+                    </div>
+                    <div class="col text-center course">
+                        <h5>Programming in Python</h5>
+                    </div>
+                </div>
+                <div class="row w-100 justify-content-center my-3 mx-auto">
+                    <div class="col text-center course">
+                        <h5>Data Structures</h5>
+                    </div>
+                    <div class="col text-center course">
+                        <h5>Network Architectures and Operating Systems</h5>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div class="row mt-5 next">
+                    <div class="row mt-5 next mx-auto">
+                    <a href="#projects" class="col"><img class="img-responsive" id="dwn-arrow-rev" src="images/sort-down.svg"></a> </div>
+                </div>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <div class="projects-container">
+    
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
+        <div class="row mx-auto">
+            <h4 class="display-3 font-weight-bold mx-auto text-center">Projects</h4>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center mb-4">Some stuff I made...</h5>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem; height: 25rem;">
+                      <img src="images/realestate.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Real Estate API</h5>
+                        <p class="card-text">An API used to get house data from a data base and display it for the user. Built using Jquery, ASP.NET, C# and Ajax</p>
+                        <a href="https://github.com/frankyuhas/realEstateAPI" class="btn btn-primary">View on Github</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                     <div class="card" style="width: 18rem; height: 25rem;">
+                      <img src="images/albumjunkies.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Music Review Site</h5>
+                        <p class="card-text">An album review site that uses a CRUD structure. Has login functionality for users. Built with Ruby on Rails</p>
+                        <a href="https://github.com/frankyuhas/backupMusicSite" class="btn btn-primary">View on Github</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                     <div class="card" style="width: 18rem; height: 25rem;">
+                      <img src="images/pizzaShop.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pizza Shop</h5>
+                        <p class="card-text">A pizza ordering website built using ASP.NET, C#, HTML/CSS and styled using Bootstrap. It implements Gridviews to interact with a Database.</p>
+                        <a href="https://github.com/frankyuhas/pizzaShop" class="btn btn-primary">View on Github</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+   <!--  <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+        </div>
+        <div class="row my-4 contacticon">
+            <a href="mailto:frankyuhas@icloud.com" class="col mx-3"><i class="fas fa-envelope-square"
+                    data-toggle="tooltip" data-placement="top" title="Email"></i></a>
+            <a href="https://www.linkedin.com/in/francis-yuhas/" class="col mx-3"><i class="fab fa-linkedin"
+                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
+            <a href="https://github.com/frankyuhas" class="col mx-3"><i class="fab fa-github-square"
+                    data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+
+        </div>
+        <div class="row mt-5">
+            <a href="#intro"><button type="button" class="btn btn-outline">Return to Top</button></a>
+        </div>
+    </div> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
